@@ -20,9 +20,7 @@
         <activity
             android:name=".MyLocationUsingHelper"
             android:label="MyLocation"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait" />
         <activity android:name=".MyLocationUsingLocationAPI">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DetailTempat" />
+        <activity android:name=".MainActivityNavbar" />
+        <activity android:name=".TipeLokasi"></activity>
     </application>
 
 </manifest>
